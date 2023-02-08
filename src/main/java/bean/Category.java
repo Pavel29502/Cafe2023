@@ -1,5 +1,5 @@
 package bean;
-
+//
 import javax.persistence.*;
 import java.util.List;
 import java.util.Objects;
@@ -40,7 +40,7 @@ public class Category {
                 ", category='" + category + '\'' +
                 '}';
     }
-
+////
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
